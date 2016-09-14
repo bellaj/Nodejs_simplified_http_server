@@ -1,0 +1,28 @@
+{
+  "//1": "Package.json describes your app and its dependencies",
+  "//2": "See https://docs.npmjs.com/files/package.json",
+
+	"name": "server",
+	"version": "0.0.1",
+	"description": "starting app",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+    "stop" : "node server_stop.js"
+
+	},
+	"dependencies": {
+	},
+	"engines": {
+		"node": "4.4.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bellaj/NodeJs"
+	},
+	"keywords": [
+		"node",
+		"hyperdev"
+	],
+	"license": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License"
+}
